@@ -1,0 +1,26 @@
+.miss-keep-app {
+    width: 600px;
+    margin:auto
+}
+
+.new-note {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 22, 22);
+    padding: 20px
+}
+
+
+.note-preview {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid rgb(243, 147, 147);
+    margin-bottom: 20px;
+    margin-inline-end: 5px;
+}
+
+.notes-list {
+    display: flex;
+    justify-content: space-around;
+}

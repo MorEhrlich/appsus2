@@ -1,0 +1,126 @@
+/* Components: */
+
+/* @import './cmps/BookFilter.css';
+@import './cmps/BookList.css';
+@import './cmps/BookPreview.css'; */
+
+body {
+    margin: 0;
+    background-color: rgb(245, 236, 186);
+    color: rgb(105, 93, 23);
+    text-align: center;
+}
+
+.logo {
+    margin-inline-start: 20px;
+    height: 150px
+}
+
+nav {
+    display: flex;
+    align-items: center;  
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color:  rgb(105, 93, 23);
+}
+
+nav a:hover {
+    color: rgb(226, 215, 149);
+}
+
+li {
+    width: 100px;
+    font-size: 1.5em;
+}
+
+.active {
+    border-radius: 3px;
+    color: rgb(226, 215, 149);
+    box-shadow: 0 5px rgb(105, 93, 23);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 18, 5);
+    margin-bottom: 40px;
+    color: rgb(226, 215, 149);
+}
+
+.book-preview, .book-details {
+    background-color: beige;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+}
+
+.book-details {
+    width: 500px;
+    margin: auto
+}
+
+.red {
+    color: red
+}
+
+.green {
+    color: green;
+}
+
+.selected {
+    border: 10px solid orange;
+}
+
+.books-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+input, button, select {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    font-size: x-large;
+}
+
+button {
+    background-color:rgb(214, 204, 148);
+    
+    font-weight: 700
+}
+
+.book-preview {
+    box-shadow:5px 10px rgb(105, 93, 23)
+}
+
+form {
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: large;
+    align-self: flex-start;
+}
+
+
+
+
+

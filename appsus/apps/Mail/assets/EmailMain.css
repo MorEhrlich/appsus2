@@ -1,0 +1,388 @@
+a {
+    color: rgb(211, 195, 195);
+}
+
+.mail-app {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.email-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+}
+
+.email-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgba(112, 111, 111, 0.411);
+    cursor: pointer;
+    padding-top: 10px;
+    height: 50px;
+    transition: all ease .4s;
+    padding-left: 35px;
+    background-color: white;
+}
+
+.email-body {
+    color: rgb(15, 78, 94);
+    margin-left: 30px;
+    width: 400px;
+}
+
+.single-email {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.single-email-from {
+    margin: 5px;
+    width: 20%;
+}
+
+.single-email-title {
+    margin: 5px;
+    width: 35%;
+}
+
+.single-email-body {
+    margin: 5px;
+    width: 45%;
+}
+
+.email-filter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-con {
+    position: relative;
+    display: inline-block;
+}
+
+.filter-btn {
+    position: relative;
+    top: 10px;
+}
+
+.filter-opt {
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    width: 100px;
+    font-size: 15px;
+    color: rgb(211, 195, 195);
+    border: none;
+}
+
+.filter-opt option {
+    text-decoration: none;
+    display: block;
+}
+
+.email-sidebar {
+    width: 20%;
+    background-color: rgb(15, 78, 94);
+    color: rgb(241, 237, 237);
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-inbox {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.link-starred {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.link-sent {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.link-trash {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.side-nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0 10px;
+}
+
+.email-compose {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-compose-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.compose-btn {
+    border-radius: 10px;
+    background-color: rgb(245, 238, 233);
+    color: rgb(211, 195, 195);
+    width: 70%;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.remove-mail-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.remove-mail-btn-img {
+    width: 30px;
+    height: 30px;
+}
+
+.star-button {
+    background-color: transparent;
+    border: none;
+}
+
+.star-button-img {
+    width: 30px;
+    height: 30px;
+}
+
+.email-counter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.read {
+    background-color: transparent;
+    color: rgb(211, 195, 195);
+}
+
+.email-counter-item {
+    color: rgb(15, 78, 94);
+    margin: 20px;
+}
+
+.search-input {
+    width: 220px;
+    margin: 10px 10px;
+}
+
+.icon-con {
+    line-height: 2.5;
+}
+
+.back-btn {
+    border-radius: 5px;
+    color: rgb(211, 195, 195);
+    background-color: rgb(15, 78, 94);
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.delete-btn {
+    border-radius: 5px;
+    color: rgb(211, 195, 195);
+    background-color: rgb(15, 78, 94);
+    font-size: 15px;
+}
+
+.send-btn {
+    border-radius: 5px;
+    color: rgb(211, 195, 195);
+    background-color: rgb(15, 78, 94);
+    font-size: 15px;
+    width: 150px;
+    position: relative;
+    top:10px;
+}
+
+.email-compose-con {
+    margin-left: 30px;
+}
+
+.email-body-compose {
+    margin: 0px;
+    height: 309px;
+    width: 423px;
+    border-radius: 5px;
+    background-color: white;
+    border: solid rgb(211, 195, 195) 2px;
+}
+
+@media (max-width: 670px) {
+    .mail-app {
+
+    }
+    .main-container {
+      
+    }
+    .email-list {
+
+    }
+    .email-preview {
+       padding:3px;
+       height: 70px;
+    }
+    .email-body {
+        margin-left: 20px;
+        width: 70%;
+    }
+    .single-email {
+
+    }
+    .single-email-from {
+        
+    }
+    .single-email-title {
+        margin-left: 25px;
+    }
+    .single-email-body {
+      
+    }
+    .email-filter {
+
+    }
+    .filter-con {
+
+    }
+    .filter-btn {
+
+    }
+    .filter-opt {
+        top: 15px;
+    }
+    .filter-opt option {
+
+    }
+    .email-sidebar {
+       
+    }
+    .link-inbox {
+        font-size: 15px;
+        margin: auto;
+    }
+    .link-starred {
+        font-size: 15px;
+        margin: auto;
+    }
+    .link-sent {
+        font-size: 15px;
+        margin: auto;
+    }
+    .link-trash {
+        font-size: 15px;
+        margin: auto;
+    }
+    .side-nav-bar {
+
+    }
+    .email-compose {
+
+    }
+    .email-compose-form {
+
+    }
+    .compose-btn {
+        font-size: 15px;
+        width: 90%;
+        visibility: hidden;
+        height: 36px;
+    }
+    .compose-btn::before {
+        content: '+';
+        font-size: 21px;
+        color: white;
+        visibility: visible;
+        border-radius: 10px;
+        background-color: rgb(245, 238, 233);
+        color: rgb(211, 195, 195);
+        width: 35px;
+        line-height: 29px;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .remove-mail-btn {
+        padding:0;
+    }
+    .remove-mail-btn-img {
+        width: 20px;
+        height: 20px;
+    }
+    .star-button {
+        padding:0;
+    }
+    .star-button-img {
+        width: 20px;
+        height: 20px;
+    }
+    .email-counter {
+        font-size: 12px;
+    }
+    .read {
+
+    }
+    .email-counter-item {
+
+    }
+    .search-input {
+        width: 150px;
+        position: relative;
+        top: 5px;
+    }
+    .icon-con {
+
+    }
+    .back-btn {
+
+    }
+    .delete-btn {
+
+    }
+    .send-btn {
+
+    }
+    .email-compose-con {
+
+    }
+    .email-body-compose {
+        width: 200px;
+        height: 256px;
+    }
+
+    .email-status-con{
+        display:none;
+    }
+}
